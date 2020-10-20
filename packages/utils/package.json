@@ -1,0 +1,12 @@
+{
+  "name": "@tprod/utils",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0"    
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

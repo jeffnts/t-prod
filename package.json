@@ -1,0 +1,17 @@
+{
+  "name": "tprod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<jf.nts10@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "yarn workspace @tprod/api start:dev",
+    "dev:app": "yarn workspace @tprod/app start",
+    "dev:app:ios": "yarn workspace @tprod/app ios",
+    "dev:app:android": "yarn workspace @tprod/app android"
+  }
+}
